@@ -1,5 +1,3 @@
-require 'pry'
-
 def optimize_metrocard(balance, budget)
   penny_budget = (budget * 100).floor
   penny_balance = (balance * 100).floor

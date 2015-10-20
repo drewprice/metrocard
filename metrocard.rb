@@ -40,7 +40,6 @@ class Metrocard
 
   def to_dollars(pennies)
     dollars = (pennies / 100).to_s
-
     pennies = (pennies % 100).to_s
     pennies << '0' if pennies.length < 2
 
